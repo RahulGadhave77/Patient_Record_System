@@ -45,6 +45,7 @@ public class PatientRepo {
 		session.close();
 	}
 
+	//database to from get all data
 	public void getAll() {
 		SessionFactory factory = PatientUtility.getfactory();
 		Session session = factory.openSession();
