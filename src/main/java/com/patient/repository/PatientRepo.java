@@ -16,6 +16,7 @@ public class PatientRepo {
 
 	Scanner sc = new Scanner(System.in);
 
+	//post data from database
 	public void addPatient() {
 
 		PatientDetail p = new PatientDetail();
